@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .navbar {
+            background-color: #f2f2f2;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navbar img {
+            width: 1500px;
+            height: 70px;
+            margin-right: 10px;
+        }
+
+        .navbar h1 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 400px;
+            column-count: 2; 
+            column-gap: 20px;
+            color: white;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1px;
+            color: green;
+        }
+        
+        .form-container label {
+            margin-bottom: 10px;
+            color: green;
+        }
+        
+        .form-container input {
+            margin-bottom: 10px;
+            color: green;
+        }
+        
+        .form-container input[type="submit"] {
+            width: 150px;
+            color: blue;
+        }
+        
+        .form-container p {
+            margin-top: 20px;
+            text-align: center;
+            color: green;
+        }
+        .image img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-count: 2;
+            column-gap: 20px;
+            color: white;
+            margin-top: 50px; /* Margem superior para posicionar mais abaixo */
+            margin-right: 20px;
+            float: left; /* Imagem posicionada à esquerda */
+            margin-right: 950px; /* Espaço à direita da imagem */
+        }
+    </style>
+</head>   
+<body>
+    <div class="navbar">
+        <img src="file:///C:/Users/Enzo/Pictures/Screenshots/Captura%20de%20Tela%20(7).png" alt="Logo">
+    </div>
+
+    <div class="content">
+        <img src="file:///C:/Users/Enzo/Pictures/Saved%20Pictures/Imagem1.png" alt="Logo">
+        <h2>I.A Residencial</h2>
+        <p>A I.A Residencial oferece uma maneira inovadora e conveniente de melhorar o seu dia a dia em casa. Com sistemas e dispositivos inteligentes, você pode automatizar tarefas rotineiras, economizar tempo e dinheiro e aumentar a segurança.
+        </p>
+        </div>
+            <div class="form-container">
+                <h2>Adquira Sua I.A</h2>
+            
+                <form action="/action_page.php">
+                    <label for="fname">Nome Completo:</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Email:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br><br>
+                    <input type="submit" value="Adquirir">
+                </form> 
+
+                <p>Uma chave de acesso será enviada para seu Email.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
